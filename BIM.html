@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIM</title>
+</head>
+<body>
+    <h1>test</h1>
+    <script>
+alert("Welcome in my challange!");
+const name = prompt ("What is your name?");
+const height = prompt("What is your height?");
+const mass = prompt("what is your mass?");
+const BMI = mass / height ** 2
+
+const name2 = prompt ("What is your name?");
+const height2 = prompt("What is your height?");
+const mass2 = prompt("what is your mass?");
+const BMI2 = mass / height ** 2
+
+const total = BMI == BMI2
+
+
+alert(`
+ name: ${name},
+ height: ${height},
+ mass: ${mass},
+ BMI: ${BMI} 
+
+ name: ${name2},
+ height: ${height2},
+ mass: ${mass2},
+ BMI: ${BMI2} 
+
+ BMI ${name} is = ${name2} ? ${total}
+
+
+`)
+    </script>
+</body>
+</html>
